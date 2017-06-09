@@ -10,7 +10,7 @@ public class LengthOflongestSubstring {
 
     public int lengthOfLongestSubstring(String s) {
 
-        s = "ohomm";
+
 
         ArrayList <Character> visited = new ArrayList<Character>();
         int currentcount = 0;
@@ -20,16 +20,16 @@ public class LengthOflongestSubstring {
 
         while (position < s.length()){
 
-            for (int i = position; i< s.length() ; i++ ){
+            for (int i = position ; i< s.length() ; i++ ){
 
-                if (visited.contains(s.charAt(i))){
+                if (visited.contains(s.charAt(i))) {
                     currentcount = 0;
                     visited.clear();
+
                     position += 1;
+
                     break;
-
-                }
-
+                    }
                 else {
                     visited.add(s.charAt(i));
                     currentcount += 1;
@@ -38,15 +38,20 @@ public class LengthOflongestSubstring {
                     }
 
 
+
                 }
+                }
+
+
+
+
+                }
+
+        return maxcount;
 
             }
         }
-        System.out.println(maxcount);
-        return maxcount;
 
 
-    }
 
 
-}
