@@ -1,12 +1,16 @@
 package com.company;
 
+import com.sun.tools.javac.util.ArrayUtils;
+
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
 
-       LongestPalindrome longest = new LongestPalindrome();
-       System.out.println(longest.longestPalindrome("babad"));
-
+       FindUnsortedSubarray findUnsortedSubarray = new FindUnsortedSubarray();
+       int[] intarray = {2,6,4,8,10,9,15};
+        System.out.println(findUnsortedSubarray.findUnsortedSubarray(intarray));
 
     }
 }
