@@ -6,7 +6,7 @@ package com.company;
 public class NumArrayDP {
     int[] nums;
 
-    public NumArray(int[] nums) {
+    public void NumArray(int[] nums) {
 
 
         for (int i =1;i<nums.length;i++){
