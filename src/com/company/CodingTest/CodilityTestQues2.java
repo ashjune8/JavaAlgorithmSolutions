@@ -5,6 +5,12 @@ package com.company.CodingTest;
  */
 public class CodilityTestQues2 {
 
+    public static void main(String[] args) {
+        CodilityTestQues2 codilityTestQues2 = new CodilityTestQues2();
+        int[] A = {1,2,4,5,7,29,20};
+        System.out.println(solution(A));
+    }
+
     public static int solution(int[] A){
 
         if (A.length >= 23){

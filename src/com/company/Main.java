@@ -1,16 +1,15 @@
 package com.company;
 
 
-
-import com.company.Arrays.FindUnsortedSubarray;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
 
     public static void main(String[] args) {
 
-       FindUnsortedSubarray findUnsortedSubarray = new FindUnsortedSubarray();
-       int[] intarray = {2,6,4,8,10,9,15};
-        System.out.println(findUnsortedSubarray.findUnsortedSubarray(intarray));
+       String s = "9\na";
+        System.out.println(s.matches("^([0-9]+)$"));
 
     }
 }
